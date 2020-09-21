@@ -7,11 +7,11 @@ Je maakt een applicatie die 2 spelkaarten zal genereren (simuleren) : 1 kaart vo
 
 ### klasse
 
-Je maakt een nieuw project aan in je solution.  Je kiest voor Class Library en je geeft het de naam **Herhaling.Klassen.Oefening.LIB**.
+Je maakt een nieuw project aan in je solution.  Je kiest voor .Net **CORE** Class Library en je geeft het de naam **Pra.OefeningKlassenFields.CORE**.
 
 Je verwijdert de automatisch aangemaakte klasse, en je voegt meteen een nieuwe klasse toe met de naam **Kaart**.  Maak deze klasse publiek.
 
-In je klasse bestand : onder de regel "namespace Herhaling.Klassen.Oefening.LIB", maar boven de regel "public class Kaart" maak je 2 publieke enumeraties aan.  
+In je klasse bestand : onder de regel "Pra.OefeningKlassenFields.CORE", maar boven de regel "public class Kaart" maak je 2 publieke enumeraties aan.  
 Eerste publieke enumeratie krijgt de naam **KaartKleur** en stelt volgende waarden beschikbaar : rood en zwart.  
 Tweede publieke enumeratie krijgt de naam **KaartSoort** en stelt volgende waarde beschikbaar : ruiten, harten, schoppen en klavers
 
@@ -38,10 +38,10 @@ Hiermee is je klasse afgewerkt.
 
 ### het WPF project
 
-Voor je hier begint die je eerst via REFERENTIES in je solution explorer nog een referentie te maken naar je class library (dus naar **Herhaling.Klassen.Oefening.LIB**)  
+Voor je hier begint die je eerst via REFERENTIES in je solution explorer nog een referentie te maken naar je class library (dus naar **Pra.OefeningKlassenFields.CORE**)  
 
 Maak bovenaan je code ook een verwijzing naar deze namespace m.b.v. een using statement.  Dus bovenaan voeg je toe :  
-using Herhaling.Klassen.Oefening.LIB;
+using Pra.OefeningKlassenFields.CORE;
 
 Uiteraard ga je een randomgenerator nodig hebben.  Deze staat reeds in je code (Random rnd) die geïnstantieerd wordt tijdens het opstarten van je programma (rnd = new Random()).
 
